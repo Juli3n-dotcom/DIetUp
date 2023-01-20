@@ -1,0 +1,83 @@
+@import url(var.css);
+@import url(root.css);
+
+
+#intro{
+  width: 100%;
+  background-color: var(--color-light-green);
+  overflow-y: hidden;
+  position: relative;
+  
+  padding-bottom: 50px;
+ 
+}
+
+#intro .intro__container{
+  height: 600px;
+  width: 100%;
+  background: url('./../images/img-bg-welcome.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+#intro .intro__cta-container{
+  padding: 0 30px;
+  max-width: 100%;
+  min-width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ transform: translateY(-20%);
+}
+
+#intro .intro__cta-container .intro__cta-title-container {
+  margin-bottom: 15px;
+}
+
+#intro .intro__cta-container .intro__cta-title-container h1{
+  color: var(--color-dark-green);
+  font-size: 32px;
+  font-family: var(--font-primary-medium);
+}
+
+#intro .intro__cta-container .intro__cta-text-container p{
+  color: var(--color-light-gray);
+  font-size: 16px;
+  font-family: var(--font-secondary-regular);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  
+}
+
+#intro .intro__cta-container .intro__cta-btn-container{
+  margin: 15px auto;
+  background-color: var(--color-green);
+  padding: 10px 60px;
+  width: 100%;
+  text-align: center;
+  border-radius: 60px;
+}
+
+
+#intro .intro__cta-container .intro__cta-btn-container a{
+  width: 100%;
+  color: #fff;
+  font-family: var(--font-secondary-bold);
+  font-size: 16px;
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+}
+
+#intro .intro__cta-container .intro__cta-login-link-container{
+  text-align: center;
+}
+
+#intro .intro__cta-container .intro__cta-login-link-container a{
+  color: var(--color-green);
+  font-size: 14px;
+  font-family: var(--font-secondary-medium);
+  letter-spacing: var(--letter-spacing);
+}

@@ -6,6 +6,9 @@
   --color-primary: #16251b;
   --color-light-gray: #9EAEB0;
   --color-background: #fff;
+  --color-light-green:#F4F9E7;
+  --color-dark-green:#04333E;
+  --color-green:#317245;
 
   /* ---- fonts ---- */
   --font-primary-variable: 'Gambetta-Variable';
@@ -30,4 +33,7 @@
   --font-secondary-regular:'Inter-Regular';
   --font-secondary-extralight:'Inter-ExtraLight';
   --font-secondary-light:'Inter-Light';
+
+  --letter-spacing : -0.25px;
+  --line-height : 24px;
 }
