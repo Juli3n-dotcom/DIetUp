@@ -1,0 +1,33 @@
+@import url(fonts.css);
+
+:root {
+
+  /* ---- color ---- */
+  --color-primary: #16251b;
+  --color-light-gray: #9EAEB0;
+  --color-background: #fff;
+
+  /* ---- fonts ---- */
+  --font-primary-variable: 'Gambetta-Variable';
+  --font-primary-variable-italic: 'Gambetta-VariableItalic';
+  --font-primary-light: 'Gambetta-Light';
+  --font-primary-light-italic: 'Gambetta-LightItalic';
+  --font-primary-regular: 'Gambetta-Regular';
+  --font-primary-italic: 'Gambetta-Italic';
+  --font-primary-medium: 'Gambetta-Medium';
+  --font-primary-medium-italic: 'Gambetta-MediumItalic';
+  --font-primary-semibold: 'Gambetta-Semibold';
+  --font-primary-semibold-italic: 'Gambetta-SemiboldItalic';
+  --font-primary-bold: 'Gambetta-Bold';
+  --font-primary-bold-italic: 'Gambetta-BoldItalic';
+
+  --font-secondary-semibold :'Inter-Semibold';
+  --font-secondary-thin: 'Inter-thin';
+  --font-secondary-black:'Inter-Black';
+  --font-secondary-medium:'Inter-Medium';
+  --font-secondary-extrabold:'Inter-ExtraBold';
+  --font-secondary-bold:'Inter-Bold';
+  --font-secondary-regular:'Inter-Regular';
+  --font-secondary-extralight:'Inter-ExtraLight';
+  --font-secondary-light:'Inter-Light';
+}

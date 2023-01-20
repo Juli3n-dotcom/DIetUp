@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'Gambetta-Variable';
+  src: url('././../fonts/Gambetta/Gambetta/Gambetta-Variable.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-Variable.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-Variable.ttf') format('truetype');
+       font-weight: 300 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gambetta-VariableItalic';
+  src: url('./../fonts/Gambetta/Gambetta-VariableItalic.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-VariableItalic.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-VariableItalic.ttf') format('truetype');
+       font-weight: 300 700;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Gambetta-Light';
+  src: url('./../fonts/Gambetta/Gambetta-Light.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-Light.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gambetta-LightItalic';
+  src: url('./../fonts/Gambetta/Gambetta-LightItalic.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-LightItalic.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-LightItalic.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Gambetta-Regular';
+  src: url('./../fonts/Gambetta/Gambetta-Regular.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-Regular.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gambetta-Italic';
+  src: url('./../fonts/Gambetta/Gambetta-Italic.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-Italic.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-Italic.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Gambetta-Medium';
+  src: url('./../fonts/Gambetta/Gambetta-Medium.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-Medium.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gambetta-MediumItalic';
+  src: url('./../fonts/Gambetta/Gambetta-MediumItalic.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-MediumItalic.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-MediumItalic.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Gambetta-Semibold';
+  src: url('./../fonts/Gambetta/Gambetta-Semibold.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-Semibold.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-Semibold.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gambetta-SemiboldItalic';
+  src: url('./../fonts/Gambetta/Gambetta-SemiboldItalic.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-SemiboldItalic.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-SemiboldItalic.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Gambetta-Bold';
+  src: url('./../fonts/Gambetta/Gambetta-Bold.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-Bold.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gambetta-BoldItalic';
+  src: url('./../fonts/Gambetta/Gambetta-BoldItalic.woff2') format('woff2'),
+       url('./../fonts/Gambetta/Gambetta-BoldItalic.woff') format('woff'),
+       url('./../fonts/Gambetta/Gambetta-BoldItalic.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter-Semibold';
+  src: url('./../fonts/Inter/Inter-SemiBold.woff2') format('woff2'),
+      url('./../fonts/Inter/Inter-SemiBold.woff') format('woff'),
+      url('./../fonts/Inter/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-thin';
+  src: url('./../fonts/Inter/Inter-Thin.woff2') format('woff2'),
+      url('./../fonts/Inter/Inter-Thin.woff') format('woff'),
+      url('./../fonts/Inter/Inter-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Black';
+  src: url('./../fonts/Inter/Inter-Black.woff2') format('woff2'),
+      url('./../fonts/Inter/Inter-Black.woff') format('woff'),
+      url('./../fonts/Inter/Inter-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('./../fonts/Inter/Inter-Medium.woff2') format('woff2'),
+      url('./../fonts/Inter/Inter-Medium.woff') format('woff')
+      url('./../fonts/Inter/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  src: url('./../fonts/Inter/Inter-ExtraBold.woff2') format('woff2'),
+      url('./../fonts/Inter/Inter-ExtraBold.woff') format('woff')
+      url('./../fonts/Inter/Inter-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('./../fonts/Inter/Inter-Bold.woff2') format('woff2'),
+      url('Inter-Bold.woff') format('woff'),
+      url('./../fonts/Inter/Inter-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('./../fonts/Inter/Inter-Regular.woff2') format('woff2'),
+      url('./../fonts/Inter/Inter-Regular.woff') format('woff'),
+      url('./../fonts/Inter/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-ExtraLight';
+  src: url('./../fonts/Inter/Inter-ExtraLight.woff2') format('woff2'),
+      url('./../fonts/Inter/Inter-ExtraLight.woff') format('woff'),
+      url('./../fonts/Inter/Inter-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Light';
+  src: url('./../fonts/Inter/Inter-Light.woff2') format('woff2'),
+      url('./../fonts/Inter/Inter-Light.woff') format('woff'),
+      url('./../fonts/Inter/Inter-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
