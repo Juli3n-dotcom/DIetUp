@@ -1,0 +1,103 @@
+@import url(var.css);
+@import url(root.css);
+
+#inscription{
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-background);
+  
+  padding: 68px 24px;
+}
+
+#inscription .inscription__container{
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  height: 100%;
+}
+
+#inscription .back__btn-container{
+  width: 100%;
+}
+
+#inscription .back__btn-container img{
+  height: 24px;
+  width: 24px;
+}
+
+#inscription .inscription__title-container{
+  margin-top: 30px;
+}
+
+#inscription .inscription__title-container h1{
+  font-family: var(--font-primary-medium);
+  font-size: 32px;
+  line-height: var(--line-height-3);
+  margin-bottom: 30px;
+  color: var(--color-dark-green);
+}
+
+#inscription .inscription__form-container{
+  display: flex;
+  align-items: center;
+}
+
+#inscription .inscription__form-container form{
+  width: 100%;
+}
+
+#inscription .inscription__form-container .input__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#inscription .inscription__form-container .input__container .input__item{
+  width: 100%;
+  height: 50px;
+  background-color: var(--color-background-2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+#inscription .inscription__form-container .input__container .input__item:focus-within{
+  border: 2px solid var(--color-green);
+}
+
+#inscription .inscription__form-container .input__container .input__item input{
+  background-color: transparent;
+  font-family: var(--font-secondary-regular);
+  font-size: 16px;
+  color: var(--color-light-gray);
+}
+
+
+#inscription .inscription__form-container .input__container .input__item:last-child{
+  position: relative;
+}
+
+#inscription .inscription__form-container .input__container .input__item .show__mdp{
+  color: var(--color-green-2);
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+
+#inscription .inscription__form-container .input__submit-container{
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-green);
+  border-radius: var(--border-2);
+  margin-top: 15px;
+  opacity: 0.5;
+}
+
+#inscription .inscription__form-container .input__submit-container button{
+  background-color: transparent;
+  color: #fff;
+  padding: var(--padding-btn-large);
+  font-family: var(--font-primary-bold);
+  font-size: 16px;
+}

@@ -7,6 +7,7 @@
   --color-light-gray: #9EAEB0;
   --color-medium-green: #B7EFCF;
   --color-background: #fff;
+  --color-background-2: #F6FAf7;
   --color-light-green:#F4F9E7;
   --color-dark-green:#04333E;
   --color-green:#317245;
@@ -39,11 +40,13 @@
   --letter-spacing : -0.25px;
   --line-height : 24px;
   --line-height-2 : 35px;
+  --line-height-3 : 39px;
 
   /* ---- padding ---- */
   --padding-btn--light : 10px 30px;
-  --padding-btn-large : 10px 60px;
+  --padding-btn-large : 20px 60px;
 
   /* ---- border radius ---- */
   --border-1 : 37px;
+  --border-2 : 112px;
 }
