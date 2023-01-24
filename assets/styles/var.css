@@ -4,6 +4,7 @@
 
   /* ---- color ---- */
   --color-primary: #16251b;
+  --color-dark-primary : #1D232E;
   --color-light-gray: #9EAEB0;
   --color-medium-green: #B7EFCF;
   --color-background: #fff;
@@ -45,8 +46,11 @@
   /* ---- padding ---- */
   --padding-btn--light : 10px 30px;
   --padding-btn-large : 20px 60px;
+  --padding-input: 30px 20px;
 
   /* ---- border radius ---- */
   --border-1 : 37px;
   --border-2 : 112px;
+  --border-3 : 16px;
+  --border-4: 76px;
 }
