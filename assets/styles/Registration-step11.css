@@ -1,0 +1,118 @@
+@import url(var.css);
+@import url(root.css);
+
+#registration__step11{
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-background);
+  
+  padding: 68px 24px;
+}
+
+#registration__step11 .registraion__container{
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  height: 100%;
+}
+
+
+#registration__step11 .registration__top-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#registration__step11 .back__btn-container{
+  height: 24px;
+  width: 24px;
+}
+
+#registration__step11 .registration__breadcrumb-container{
+  width: 90%;
+  height: 4px;
+  background-color: var(--color-medium-green);
+  position: relative;
+  border-radius: var(--border-3);
+}
+
+#registration__step11 .registration__breadcrumb-container .breadcrumb{
+  display: block;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  width: 40%;
+  background-color: var( --color-green-2);
+  border-radius: var(--border-3);
+}
+
+#registration__step11 .registration__title-container{
+  margin: 30px auto;
+}
+
+#registration__step11 .registration__title-container h1{
+  font-family: var(--font-primary-medium);
+  font-size: 32px;
+  line-height: var(--line-height-3);
+  margin-bottom: 30px;
+  color: var(--color-dark-green);
+}
+
+#registration__step11 .registration__text-container p{
+  font-family: var(--font-secondary-regularm);
+  font-size: 16px;
+  line-height: var(--line-height);
+  margin-bottom: 30px;
+  color: var(--color-light-gray);
+  letter-spacing: var(--letter-spacing);
+}
+
+
+
+
+
+#registration__step11 .form__container .input__item input{
+  background: transparent;
+  width: 100%;
+}
+
+#registration__step11 .form__container .input__item  input::-webkit-outer-spin-button,
+#registration__step11 .form__container .input__item  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#registration__step11 .form__container .input__item input{
+  appearance: none;
+}
+
+
+
+
+#registration__step11 .form__container .input__item .element{
+  color: var(--color-green-2);
+  width: 40px;
+  height: 22px;
+  position: absolute;
+  right: 15px;
+  border: 0.5px solid var(--color-green-2);
+ text-align: center;
+  border-radius: var(--border-4);
+}
+
+
+#registration__step11 .form__container .input__item label{
+  width: 100%;
+  height: 50px;
+  background-color: var(--color-background-2);
+  border-radius: 8px;
+  padding: var(--padding-input);
+  display: flex;
+  align-items: center;
+  font-family: var(--font-secondary-regular);
+  font-size: 16px;
+  color: var(--color-dark-primary);
+}
+
+#registration__step11 .form__container .input__item input[type="radio"]:checked + label {
+  border: 2px solid var(--color-green);
+}
