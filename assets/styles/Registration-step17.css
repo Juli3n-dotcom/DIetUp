@@ -1,0 +1,125 @@
+@import url(var.css);
+@import url(root.css);
+
+#registration__step17{
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-background);
+  
+  padding: 68px 24px;
+}
+
+#registration__step17 .registraion__container{
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+}
+
+
+#registration__step17 .registration__top-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#registration__step17 .back__btn-container{
+  height: 24px;
+  width: 24px;
+}
+
+#registration__step17 .registration__breadcrumb-container{
+  width: 90%;
+  height: 4px;
+  background-color: var(--color-medium-green);
+  position: relative;
+  border-radius: var(--border-3);
+}
+
+#registration__step17 .registration__breadcrumb-container .breadcrumb{
+  display: block;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  width: 80%;
+  background-color: var( --color-green-2);
+  border-radius: var(--border-3);
+}
+
+#registration__step17 .registration__title-container{
+  margin: 30px auto;
+}
+
+#registration__step17 .registration__title-container h1{
+  font-family: var(--font-primary-medium);
+  font-size: 32px;
+  line-height: var(--line-height-3);
+  margin-bottom: 30px;
+  color: var(--color-dark-green);
+}
+
+#registration__step17 .registration__text-container p{
+  font-family: var(--font-secondary-regular);
+  font-size: 16px;
+  line-height: var(--line-height);
+  margin-bottom: 30px;
+  color: var(--color-light-gray);
+  letter-spacing: var(--letter-spacing);
+}
+
+#registration__step17 .choix__item-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+
+#registration__step17 .form__container .input__item input{
+  background: transparent;
+ width: 60px;
+ height: 60px;
+ text-align: center;
+}
+
+#registration__step17 .form__container .input__item  input::-webkit-outer-spin-button,
+#registration__step17 .form__container .input__item  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#registration__step17 .form__container .input__item input{
+  appearance: none;
+}
+
+
+#registration__step17 .form__container .input__item label{
+  width: 100%;
+  height: 60px;
+  background-color: var(--color-background-2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-secondary-regular);
+  font-size: 16px;
+  color: var(--color-dark-primary);
+}
+
+#registration__step17 .form__container .input__item input[type="radio"]:checked + label {
+  border: 2px solid var(--color-green);
+}
+
+#registration__step17 .form__container .choix__item-subtitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#registration__step17 .form__container .choix__item-subtitle span{
+  font-family: var(--font-secondary-regular);
+  font-size: 12px;
+  color: var(--color-light-gray);
+  letter-spacing: var(--letter-spacing);
+}
