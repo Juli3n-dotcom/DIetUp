@@ -1,0 +1,44 @@
+@import url(var.css);
+@import url(root.css);
+
+#registration__step23{
+ position: relative;
+ height: 100vh;
+ width: 100%;
+}
+
+#registration__step23 .bravo__container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+#registration__step23 .bravo__container .bravo__img-container img{
+ 
+  height: 163.87px;
+}
+
+#registration__step23 .bravo__container .bravo__text-container{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  min-width: 220px;
+}
+
+#registration__step23 .bravo__container .bravo__text-container h1{
+  font-size: 40px;
+  font-family: var(--font-primary-medium);
+  color: var(--color-dark-green);
+}
+
+#registration__step23 .bravo__container .bravo__text-container p{
+  font-size: 15px;
+  font-family: var(--font-secondary-bold);
+  color: var(--color-green);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+}

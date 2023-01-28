@@ -1,0 +1,164 @@
+@import url(var.css);
+@import url(root.css);
+
+#registration__step24 .top__container{
+ background-image: url('./../images/img-curve-checkout-step2.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 220px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px 24px 0 24px;
+ position: relative;
+}
+
+#registration__step24 .bottom__container{
+  margin-top: 20px;
+  padding: 0 24px 20px 24px;
+}
+
+#registration__step24 .bottom__container .title__container{
+font-size: 30px;
+font-family: var(--font-primary-medium);
+color: var(--color-dark-green);
+}
+
+#registration__step24 .bottom__container .text__container p{
+  font-size: 15px;
+  font-family: var(--font-secondary-regular);
+  color: var(--color-light-gray);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+}
+
+#registration__step24 .checkout__form-container{
+  position: relative;
+  margin-top: 20px;
+}
+
+#registration__step24 .checkout__form-container .input__container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#registration__step24 .checkout__form-container label{
+  font-size: 14px;
+  font-family: var(--font-secondary-bold);
+  color: var(--color-black-gray);
+  line-height: 22px;
+  letter-spacing: 0.5%;
+}
+
+#registration__step24 .checkout__form-container input{
+  border: 0.5px solid rgba(60,66,87, 0.12);
+  padding: 14px 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.04);
+  width: 100%;
+}
+
+#registration__step24 .checkout__form-container .cb__container input{
+  position: relative;
+  box-shadow: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#registration__step24 .checkout__form-container .cb__container img{
+  position: absolute;
+  top: 10px;
+  max-width: 119px;
+  max-height: 16px;
+  right: 10px;
+}
+
+#registration__step24 .checkout__form-container .cb__container::placeholder{
+  font-size: 14px;
+  font-family: var(--font-secondary-medium);
+  color: var(--color-black-gray);
+  line-height: 22px;
+  letter-spacing: 0.5%;
+}
+
+#registration__step24 .checkout__form-container .cb__infos-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#registration__step24 .checkout__form-container .cb__infos-container input{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#registration__step24 .checkout__form-container .exp-wrapper{
+  width: 100%;
+  border-bottom-right-radius: 0;
+}
+
+#registration__step24 .checkout__form-container .exp-wrapper input{
+    border-bottom-right-radius: 0;
+}
+
+#registration__step24 .checkout__form-container .cvv__container{
+  position: relative;
+  width: 100%;
+ 
+}
+#registration__step24 .checkout__form-container .cvv__container input{
+
+  border-bottom-left-radius: 0;
+}
+
+#registration__step24 .checkout__form-container .cvv__container img{
+  position: absolute;
+  top: 14px;
+  max-width: 24px;
+  max-height: 16px;
+  right: 10px;
+}
+
+#registration__step24 .checkout__form-container .region__container select{
+  width: 100%;
+  border: 0.5px solid rgba(60,66,87, 0.12);
+  padding: 14px 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 100%;
+  -moz-appearance:none !important;
+    -webkit-appearance: none !important; 
+    appearance: none !important;
+    background: url("./../images/Chevron.svg") no-repeat;
+    background-position: calc(100% - 0.75rem) center !important;
+}
+
+#registration__step24 .checkout__form-container .checkout__input{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#registration__step24 .checkout__form-container .checkout__input::placeholder{
+  font-size: 16px;
+  font-family: var(--font-secondary-medium);
+  color: var(--color-black-gray);
+  line-height: 22px;
+  letter-spacing: 0.5%;
+}
+
+#registration__step21 .bottom__container .checkout__btn-container{
+  padding: 40px 0;
+}
+
+#registration__step24 .checkout__form-container .checkout__btn-container button{
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  padding: var(--padding-btn-large);
+  font-family: var(--font-secondary-bold);
+  font-size: 16px;
+  background-color: var(--color-green);
+  border-radius: var(--border-2);
+  margin-top: 14px;
+}
