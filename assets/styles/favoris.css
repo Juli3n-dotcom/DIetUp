@@ -1,0 +1,54 @@
+@import url(var.css);
+@import url(root.css);
+@import url(navbar.css);
+
+#favoris{
+  padding: 68px 0px 0 0px;
+  position: relative;
+  height: 100%;
+}
+
+#favoris h1{
+  font-size: 32px;
+  font-family: var(--font-primary-medium);
+  color: var(--color-dark-green);
+  line-height: var(--line-height-3);
+  padding: 0 24px 0 24px;
+}
+
+#favoris .listing__cours-container{
+  padding: 0 24px 0 24px;
+  margin-top: 50px;
+}
+
+#favoris .listing__cours-container .cours{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.5px solid #e7ecf3;
+  padding: 15px 0 10px 0;
+  align-items: center;
+
+}
+
+#favoris .listing__cours-container .cours img{
+  height: 48px;
+}
+
+#favoris .listing__cours-container .cours .cours__text-container{
+  margin-left: 20px;
+}
+
+#favoris .listing__cours-container .cours .cours__text-container h3{
+  font-size: 16px;
+  font-family: var(--font-secondary-semibold);
+  color: var(--color-green);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+}
+
+#favoris .listing__cours-container .cours .cours__text-container .date{
+  font-size: 14px;
+  font-family: var(--font-secondary-regular);
+  color: var(--color-dark-gray);
+  line-height: 20px;
+}

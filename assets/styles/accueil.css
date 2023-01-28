@@ -1,5 +1,6 @@
 @import url(var.css);
 @import url(root.css);
+@import url(navbar.css);
 
 #accueil{
   padding: 68px 0px 0 0px;
@@ -130,43 +131,3 @@ border-radius: 8px;
   line-height: 17px;
 }
 
-#accueil .tab__bar{
-  position: fixed;
-  bottom: 0;
-  background-color: var(--color-green);
-  width: 100%;
-  padding: 20px 50px 40px 50px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-}
-
-#accueil .tab__bar .nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#accueil .tab__bar .nav .deal__item{
-  text-align: center;
-}
-
-#accueil .tab__bar .nav__item .icon{
-  height: 32px;
-  opacity: 0.5;
-}
-
-#accueil .tab__bar .nav__item.active .icon{
-  opacity: 1;
-}
-
-#accueil .tab__bar .nav .nav__item span{
-  color: #fff;
-  font-size: 10px;
-  font-family: var(--font-secondary-semibold);
-  opacity: 0.5;
-}
-
-#accueil .tab__bar .nav .nav__item.active span{
-  opacity: 1;
-}

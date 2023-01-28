@@ -1,0 +1,40 @@
+.tab__bar{
+  position: fixed;
+  bottom: 0;
+  background-color: var(--color-green);
+  width: 100%;
+  padding: 20px 50px 40px 50px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.tab__bar .nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab__bar .nav .deal__item{
+  text-align: center;
+}
+
+.tab__bar .nav__item .icon{
+  height: 32px;
+  opacity: 0.5;
+}
+
+.tab__bar .nav__item.active .icon{
+  opacity: 1;
+}
+
+.tab__bar .nav .nav__item span{
+  color: #fff;
+  font-size: 10px;
+  font-family: var(--font-secondary-semibold);
+  opacity: 0.5;
+}
+
+.tab__bar .nav .nav__item.active span{
+  opacity: 1;
+}
