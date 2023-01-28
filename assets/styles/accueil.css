@@ -1,0 +1,172 @@
+@import url(var.css);
+@import url(root.css);
+
+#accueil{
+  padding: 68px 0px 0 0px;
+  position: relative;
+  height: 100%;
+}
+
+#accueil h1{
+  font-size: 32px;
+  font-family: var(--font-primary-medium);
+  color: var(--color-dark-green);
+  line-height: var(--line-height-3);
+  padding: 0 24px 0 24px;
+}
+
+#accueil h1 .name{
+  color: var(--color-green);
+}
+
+#accueil .trending h2,
+#accueil .deals h2{
+  font-size: 20px;
+  font-family: var(--font-primary-medium);
+  color: var(--color-dark-green);
+  line-height: 28px;
+}
+
+#accueil .accueil__container{
+  margin-top: 50px;
+  padding: 0 0px 0 24px;
+}
+
+#accueil .trending .trending__container,
+#accueil .deals__container
+{
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 24px;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+#accueil .trending .trending__container::-webkit-scrollbar,
+#accueil .deals__container::-webkit-scrollbar{
+  height: 0;
+  background: transparent;
+}
+
+#accueil .trending .trending__item{
+min-width: 250px;
+min-height: 190px;
+border-radius: 8px;
+background-color: #eee;
+scroll-snap-align: start;
+color: #fff;
+padding: 15px;
+}
+
+#accueil .trending .trending__item{
+  color: #fff;
+  font-size: 25px;
+  font-family: var(--font-primary-bold);
+  line-height: 30px;
+}
+
+#accueil .trending .trending__item:first-child{
+  background-image:url('./../images/img-cards-repas.png') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#accueil .trending .trending__item:nth-child(2){
+  background-image:url('./../images/img-cards-sport.png') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#accueil .trending .trending__item:nth-child(3){
+  background-image:url('./../images/img-cards-communauté.png') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#accueil .deals__container .deal__item{
+min-height: 167px;
+min-width: 120px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+position: relative;
+padding: 10px;
+text-align: center;
+border-radius: 8px;
+}
+
+#accueil .deals__container .deal__item.rose{
+  background-color: var(--color-pink);
+}
+
+#accueil .deals__container .deal__item.blue{
+  background-color: var(--color-light-blue);
+}
+
+#accueil .deals__container .deal__item img{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#accueil .deals__container .deal__item.rose img{
+  width: 48.23px;
+  height: 58px;
+}
+
+#accueil .deals__container .deal__item.blue img{
+  width: 77.05px;
+  height: 69.16px;
+}
+
+#accueil .deals__container .deal__item h6{
+  position: absolute;
+  bottom: 10px;
+  font-size: 14px;
+  font-family: var(--font-primary-medium);
+  color: var(--color-dark-green);
+  line-height: 17px;
+}
+
+#accueil .tab__bar{
+  position: fixed;
+  bottom: 0;
+  background-color: var(--color-green);
+  width: 100%;
+  padding: 20px 50px 40px 50px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+#accueil .tab__bar .nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#accueil .tab__bar .nav .deal__item{
+  text-align: center;
+}
+
+#accueil .tab__bar .nav__item .icon{
+  height: 32px;
+  opacity: 0.5;
+}
+
+#accueil .tab__bar .nav__item.active .icon{
+  opacity: 1;
+}
+
+#accueil .tab__bar .nav .nav__item span{
+  color: #fff;
+  font-size: 10px;
+  font-family: var(--font-secondary-semibold);
+  opacity: 0.5;
+}
+
+#accueil .tab__bar .nav .nav__item.active span{
+  opacity: 1;
+}
