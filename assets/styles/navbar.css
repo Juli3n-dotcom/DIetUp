@@ -3,7 +3,7 @@
   bottom: 0;
   background-color: var(--color-green);
   width: 100%;
-  padding: 20px 50px 40px 50px;
+  padding: 20px 60px 20px 60px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
 }
@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-.tab__bar .nav .deal__item{
+.tab__bar .nav .nav__item{
   text-align: center;
 }
 

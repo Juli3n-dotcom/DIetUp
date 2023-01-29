@@ -1,0 +1,100 @@
+@import url(var.css);
+@import url(root.css);
+@import url(navbar.css);
+
+#profil{
+  padding: 68px 0px 0 0px;
+  position: relative;
+  height: 100%;
+}
+
+#profil .top__container{
+  padding: 0 24px 0 24px;
+}
+
+#profil .profil__container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#profil .profil__container .profil__img-container img{
+  max-height: 72px;
+  object-fit: contain;
+}
+
+#profil .profil__container .profil__text-container{
+  margin-left: 25px;
+}
+
+#profil h1{
+  font-size: 32px;
+  font-family: var(--font-primary-medium);
+  color: var(--color-dark-green);
+  line-height: var(--line-height-3);
+}
+
+#profil .profil__container .profil__text-container p{
+  font-size: 16px;
+  font-family: var(--font-secondary-medium);
+  color: var(--color-dark-gray);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+}
+
+#profil .profil__nav-container{
+  margin-top: 50px;
+  padding: 0 24px 0 24px;
+}
+
+#profil .profil__nav-container .profil__nav-item{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.5px solid #e7ecf3;
+  padding: 15px 0 10px 0;
+  align-items: center;
+}
+
+#profil .profil__nav-container .profil__nav-item-link{
+  font-size: 16px;
+  font-family: var(--font-secondary-medium);
+  color: var(--color-dark-primary);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  position: relative;
+  width: 100%;
+}
+
+#profil .profil__nav-container .profil__nav-item-link::after{
+  content: '';
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-image: url('./../images/chevron_right.svg');
+}
+
+#profil .dietup__infos-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  transform: translate(-50%, -20%);
+}
+
+#profil .dietup__infos-container .infos__img-container img{
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+#profil .dietup__infos-container .infos__text-container p{
+  font-size: 12px;
+  font-family: var(--font-secondary-regular);
+  color: var(--color-dark-gray);
+  line-height: 20px;
+  width: 100%;
+}
