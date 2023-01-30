@@ -46,8 +46,9 @@
   border-top-right-radius: 20px;
   z-index: 100;
   transform: translateY(-10px);
-    z-index: 1000;
-    position: relative;
+  z-index: 1000;
+  position: relative;
+  margin-top: -20px;
 }
 
 #fav-detail .detail__container::after{

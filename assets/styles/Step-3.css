@@ -2,11 +2,8 @@
 @import url(root.css);
 
 #step-3{
-  height: 100vh;
   width: 100%;
   background-color: var(--color-background);
-  display: grid;
-  grid-template-rows: auto 1fr auto;
   padding: 68px 24px;
 }
 
@@ -70,6 +67,7 @@ border-radius: 16px;
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 25%;
 }
 
 #step-3 .step__btn-container a {
