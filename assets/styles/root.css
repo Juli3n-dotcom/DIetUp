@@ -20,6 +20,18 @@ html,body {
   overflow-x: hidden;
 }
 
+body.green{
+  background-color: var(--color-light-green);
+}
+
+body.rose{
+  background-color: var(--color-pink);
+}
+
+body.bleu{
+  background-color: var(--color-light-blue);
+}
+
 a {
   /* color: var(--color-dark); */
   text-decoration: none;

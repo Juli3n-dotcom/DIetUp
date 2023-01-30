@@ -1,9 +1,7 @@
 @import url(var.css);
 @import url(root.css);
 
-body.green{
-  background-color: var(--color-light-green);
-}
+
 
 #registration__step4{
   height: 100vh;
