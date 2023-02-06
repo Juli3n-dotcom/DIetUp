@@ -54,20 +54,21 @@ border-radius: 16px;
 #step-3 .step__content-container .step__img-container{
   width: 100%;
   display: flex;
-  
+  margin-top: 20px;
 }
 
-#step-3 .step__content-container .step__img-container img{
-  object-fit: none;
+/* #step-3 .step__content-container .step__img-container img{
+ width: 390px;
+ height: 390px;
   
-}
+} */
 
 #step-3 .step__btn-container{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 #step-3 .step__btn-container a {

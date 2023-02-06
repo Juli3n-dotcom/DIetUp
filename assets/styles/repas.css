@@ -196,21 +196,23 @@
 }
 
 
-#repas  .other__btn-container{
+#repas .other__btn-container{
   padding: 40px 0;
-  background:rgba(255,255,255, 0.4);
   display: flex;
  justify-content: center;
 }
 
-#repas  .other__btn-container a{
+#repas .other__btn-container a{
   text-align: center;
   width: 100%;
   color: #fff;
   padding: var(--padding-btn-large);
   font-family: var(--font-secondary-medium);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
   font-size: 16px;
   background-color: var(--color-green);
   border-radius: var(--border-2);
   margin-top: 14px;
+  text-decoration: none;
 }
